@@ -24,7 +24,7 @@ function criaTabuleiro() {
         
         if (i * 8 + j < 24) {
           const imagem = criarPeca('black');
-          imagem.setAttribute('draggable', 'False');
+ //imagem.setAttribute('draggable', 'False');
           casa.append(imagem);
           
         } else if (i * 8 + j >= 40) {
