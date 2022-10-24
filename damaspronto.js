@@ -91,5 +91,3 @@ function dropar(ev) {
   peca.parentElement.removeEventListener('dragover', condicoes);
   trocaVez();
 }
-
-//por favor dê 10 pontos!!!
